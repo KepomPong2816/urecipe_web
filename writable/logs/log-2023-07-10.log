@@ -1,0 +1,17 @@
+INFO - 2023-07-10 18:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 19:37:41 --> Invalid file: "admin/admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin/admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-10 19:52:22 --> Out of memory (allocated 4194304 bytes) (tried to allocate 327680 bytes)
+in SYSTEMPATH\Router\RouteCollection.php on line 438.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-10 19:52:22 --> Out of memory (allocated 4194304 bytes) (tried to allocate 327680 bytes)
+in SYSTEMPATH\Router\RouteCollection.php on line 438.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
